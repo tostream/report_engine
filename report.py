@@ -5,8 +5,8 @@ from abc import ABC, abstractmethod
 from pandas.core.frame import DataFrame
 from pandasql import sqldf
 import numpy as np
-from remote_storage import sFtpHelper, FtpHelper
-from web_api import webapi
+from domain.remote_storage import sFtpHelper, FtpHelper
+from domain.web_api import webapi
 from enum import Enum
 
 
